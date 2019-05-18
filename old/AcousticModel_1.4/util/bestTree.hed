@@ -1,0 +1,229 @@
+RO 100.0 "stats"
+
+TR 0
+
+QS  "R_V-Oral"      { *+a,*+e,*+i,*+o,*+u,*+O,*+E }
+QS  "R_V-Front"     { *+i,*+E,*+e }
+QS  "R_V-Central"   { *+a }
+QS  "R_V-Back"      { *+u,*+o,*+O }
+QS  "R_V-Aberta"    { *+a,*+E,*+O }
+QS  "R_V-Fechada"   { *+i,*+e,*+o,*+u }
+QS  "R_V-Nasal"     { *+a~,*+e~,*+i~,*+o~,*+u~ }
+QS  "R_Oral"			{ *+p,*+b,*+f,*+v,*+t,*+d,*+s,*+z,*+l,*+r,*+S,*+Z,*+L,*+k,*+g,*+R,*+h }
+QS  "R_Nasal"			{ *+n,*+m,*+J }
+QS  "R_Oclusiva"		{ *+p,*+b,*+t,*+d,*+k,*+g,*+n,*+m,*+J }
+QS  "R_Sonora"			{ *+b,*+d,*+g,*+v,*+z,*+Z,*+r,*+R,*+n,*+m,*+J,*+h }
+QS  "R_Surda"			{ *+p,*+t,*+k,*+f,*+s,*+S }
+QS  "R_Oral_Oclusiva"		{ *+p,*+b,*+t,*+d,*+k,*+g }
+QS  "R_Oral_Oclusiva_Sonora"	{ *+b,*+d,*+g }
+QS  "R_Oral_Oclusiva_Surda"	{ *+p,*+t,*+k }
+QS  "R_Oral_Construtiva"	{ *+f,*+v,*+s,*+z,*+l,*+r,*+S,*+Z,*+L,*+R,*+h }
+QS  "R_Fricativa"		{ *+f,*+v,*+s,*+z,*+S,*+Z }
+QS  "R_Fricativa_Sonora"	{ *+v,*+z,*+Z }
+QS  "R_Fricativa_Surda"		{ *+f,*+s,*+S }
+QS  "R_Laterais"		{ *+l,*+L }
+QS  "R_Vibrantes"		{ *+r,*+R,*+h }
+QS  "R_Bilabiais"		{ *+p,*+b,*+m }
+QS  "R_Labiodentais"		{ *+f,*+v }
+QS  "R_Linguodentais"		{ *+t,*+d,*+n }
+QS  "R_Alveolares"		{ *+s,*+z,*+l,*+r }
+QS  "R_Palatais"		{ *+S,*+Z,*+L,*+J }
+QS  "R_Velares"			{ *+k,*+g,*+R,*+h }
+QS  "R_a"      { *+a }
+QS  "R_b"      { *+b }
+QS  "R_k"      { *+k }
+QS  "R_t"      { *+t }
+QS  "R_i"      { *+i }
+QS  "R_s"      { *+s }
+QS  "R_S"      { *+S }
+QS  "R_d"      { *+d }
+QS  "R_f"      { *+f }
+QS  "R_u"      { *+u }
+QS  "R_m"      { *+m }
+QS  "R_e~"     { *+e~ }
+QS  "R_h"      { *+h }
+QS  "R_Z"      { *+Z }
+QS  "R_l"      { *+l }
+QS  "R_n"      { *+n }
+QS  "R_a~"     { *+a~ }
+QS  "R_o"      { *+o }
+QS  "R_R"      { *+R }
+QS  "R_e"      { *+e }
+QS  "R_O"      { *+O }
+QS  "R_r"      { *+r }
+QS  "R_L"      { *+L }
+QS  "R_E"      { *+E }
+QS  "R_z"      { *+z }
+QS  "R_g"      { *+g }
+QS  "R_J"      { *+J }
+QS  "R_v"      { *+v }
+QS  "R_p"      { *+p }
+QS  "R_u~"     { *+u~ }
+QS  "R_o~"     { *+o~ }
+QS  "R_i~"     { *+i~ }
+QS  "L_V-Oral"      { a-*,e-*,i-*,o-*,u-*,O-*,E-* }
+QS  "L_V-Front"     { i-*,E-*,e-* }
+QS  "L_V-Central"   { a-* }
+QS  "L_V-Back"      { u-*,o-*,O-* }
+QS  "L_V-Aberta"    { a-*,E-*,O-* }
+QS  "L_V-Fechada"   { i-*,e-*,o-*,u-* }
+QS  "L_V-Nasal"     { a~-*,e~-*,i~-*,o~-*,u~-* }
+QS  "L_Oral"			{ p-*,b-*,f-*,v-*,t-*,d-*,s-*,z-*,l-*,r-*,S-*,Z-*,L-*,k-*,g-*,R-*,h-* }
+QS  "L_Nasal"			{ n-*,m-*,J-* }
+QS  "L_Oclusiva"		{ p-*,b-*,t-*,d-*,k-*,g-*,n-*,m-*,J-* }
+QS  "L_Sonora"			{ b-*,d-*,g-*,v-*,z-*,Z-*,r-*,R-*,n-*,m-*,J-*,h-* }
+QS  "L_Surda"			{ p-*,t-*,k-*,f-*,s-*,S-* }
+QS  "L_Oral_Oclusiva"		{ p-*,b-*,t-*,d-*,k-*,g-* }
+QS  "L_Oral_Oclusiva_Sonora"	{ b-*,d-*,g-* }
+QS  "L_Oral_Oclusiva_Surda"	{ p-*,t-*,k-* }
+QS  "L_Oral_Construtiva"	{ f-*,v-*,s-*,z-*,l-*,r-*,S-*,Z-*,L-*,R-*,h-* }
+QS  "L_Fricativa"		{ f-*,v-*,s-*,z-*,S-*,Z-* }
+QS  "L_Fricativa_Sonora"	{ v-*,z-*,Z-* }
+QS  "L_Fricativa_Surda"		{ f-*,s-*,S-* }
+QS  "L_Laterais"		{ l-*,L-* }
+QS  "L_Vibrantes"		{ r-*,R-*,h-* }
+QS  "L_Bilabiais"		{ p-*,b-*,m-* }
+QS  "L_Labiodentais"		{ f-*,v-* }
+QS  "L_Linguodentais"		{ t-*,d-*,n-* }
+QS  "L_Alveolares"		{ s-*,z-*,l-*,r-* }
+QS  "L_Palatais"		{ S-*,Z-*,L-*,J-* }
+QS  "L_Velares"			{ k-*,g-*,R-*,h-* }
+QS  "L_a"      { a-* }
+QS  "L_b"      { b-* }
+QS  "L_k"      { k-* }
+QS  "L_t"      { t-* }
+QS  "L_i"      { i-* }
+QS  "L_s"      { s-* }
+QS  "L_S"      { S-* }
+QS  "L_d"      { d-* }
+QS  "L_f"      { f-* }
+QS  "L_u"      { u-* }
+QS  "L_m"      { m-* }
+QS  "L_e~"     { e~-* }
+QS  "L_h"      { h-* }
+QS  "L_Z"      { Z-* }
+QS  "L_l"      { l-* }
+QS  "L_n"      { n-* }
+QS  "L_a~"     { a~-* }
+QS  "L_o"      { o-* }
+QS  "L_R"      { R-* }
+QS  "L_e"      { e-* }
+QS  "L_O"      { O-* }
+QS  "L_r"      { r-* }
+QS  "L_L"      { L-* }
+QS  "L_E"      { E-* }
+QS  "L_z"      { z-* }
+QS  "L_g"      { g-* }
+QS  "L_J"      { J-* }
+QS  "L_v"      { v-* }
+QS  "L_p"      { p-* }
+QS  "L_u~"     { u~-* }
+QS  "L_o~"     { o~-* }
+QS  "L_i~"     { i~-* }
+
+TR 2
+
+TB  600.0 "sp_ST2" {(*-sp,sp+*,*-sp+*).state[2]}
+TB  600.0 "sil_ST2" {(*-sil,sil+*,*-sil+*).state[2]}
+TB  600.0 "sil_ST3" {(*-sil,sil+*,*-sil+*).state[3]}
+TB  600.0 "sil_ST4" {(*-sil,sil+*,*-sil+*).state[4]}
+TB  600.0 "a~_ST2" {(*-a~,a~+*,*-a~+*).state[2]}
+TB  600.0 "a~_ST3" {(*-a~,a~+*,*-a~+*).state[3]}
+TB  600.0 "a~_ST4" {(*-a~,a~+*,*-a~+*).state[4]}
+TB  600.0 "Z_ST2" {(*-Z,Z+*,*-Z+*).state[2]}
+TB  600.0 "Z_ST3" {(*-Z,Z+*,*-Z+*).state[3]}
+TB  600.0 "Z_ST4" {(*-Z,Z+*,*-Z+*).state[4]}
+TB  600.0 "S_ST2" {(*-S,S+*,*-S+*).state[2]}
+TB  600.0 "S_ST3" {(*-S,S+*,*-S+*).state[3]}
+TB  600.0 "S_ST4" {(*-S,S+*,*-S+*).state[4]}
+TB  600.0 "R_ST2" {(*-R,R+*,*-R+*).state[2]}
+TB  600.0 "R_ST3" {(*-R,R+*,*-R+*).state[3]}
+TB  600.0 "R_ST4" {(*-R,R+*,*-R+*).state[4]}
+TB  600.0 "O_ST2" {(*-O,O+*,*-O+*).state[2]}
+TB  600.0 "O_ST3" {(*-O,O+*,*-O+*).state[3]}
+TB  600.0 "O_ST4" {(*-O,O+*,*-O+*).state[4]}
+TB  600.0 "L_ST2" {(*-L,L+*,*-L+*).state[2]}
+TB  600.0 "L_ST3" {(*-L,L+*,*-L+*).state[3]}
+TB  600.0 "L_ST4" {(*-L,L+*,*-L+*).state[4]}
+TB  600.0 "J_ST2" {(*-J,J+*,*-J+*).state[2]}
+TB  600.0 "J_ST3" {(*-J,J+*,*-J+*).state[3]}
+TB  600.0 "J_ST4" {(*-J,J+*,*-J+*).state[4]}
+TB  600.0 "E_ST2" {(*-E,E+*,*-E+*).state[2]}
+TB  600.0 "E_ST3" {(*-E,E+*,*-E+*).state[3]}
+TB  600.0 "E_ST4" {(*-E,E+*,*-E+*).state[4]}
+TB  600.0 "i~_ST2" {(*-i~,i~+*,*-i~+*).state[2]}
+TB  600.0 "i~_ST3" {(*-i~,i~+*,*-i~+*).state[3]}
+TB  600.0 "i~_ST4" {(*-i~,i~+*,*-i~+*).state[4]}
+TB  600.0 "o~_ST2" {(*-o~,o~+*,*-o~+*).state[2]}
+TB  600.0 "o~_ST3" {(*-o~,o~+*,*-o~+*).state[3]}
+TB  600.0 "o~_ST4" {(*-o~,o~+*,*-o~+*).state[4]}
+TB  600.0 "u~_ST2" {(*-u~,u~+*,*-u~+*).state[2]}
+TB  600.0 "u~_ST3" {(*-u~,u~+*,*-u~+*).state[3]}
+TB  600.0 "u~_ST4" {(*-u~,u~+*,*-u~+*).state[4]}
+TB  600.0 "e~_ST2" {(*-e~,e~+*,*-e~+*).state[2]}
+TB  600.0 "e~_ST3" {(*-e~,e~+*,*-e~+*).state[3]}
+TB  600.0 "e~_ST4" {(*-e~,e~+*,*-e~+*).state[4]}
+TB  600.0 "z_ST2" {(*-z,z+*,*-z+*).state[2]}
+TB  600.0 "z_ST3" {(*-z,z+*,*-z+*).state[3]}
+TB  600.0 "z_ST4" {(*-z,z+*,*-z+*).state[4]}
+TB  600.0 "v_ST2" {(*-v,v+*,*-v+*).state[2]}
+TB  600.0 "v_ST3" {(*-v,v+*,*-v+*).state[3]}
+TB  600.0 "v_ST4" {(*-v,v+*,*-v+*).state[4]}
+TB  600.0 "u_ST2" {(*-u,u+*,*-u+*).state[2]}
+TB  600.0 "u_ST3" {(*-u,u+*,*-u+*).state[3]}
+TB  600.0 "u_ST4" {(*-u,u+*,*-u+*).state[4]}
+TB  600.0 "t_ST2" {(*-t,t+*,*-t+*).state[2]}
+TB  600.0 "t_ST3" {(*-t,t+*,*-t+*).state[3]}
+TB  600.0 "t_ST4" {(*-t,t+*,*-t+*).state[4]}
+TB  600.0 "s_ST2" {(*-s,s+*,*-s+*).state[2]}
+TB  600.0 "s_ST3" {(*-s,s+*,*-s+*).state[3]}
+TB  600.0 "s_ST4" {(*-s,s+*,*-s+*).state[4]}
+TB  600.0 "r_ST2" {(*-r,r+*,*-r+*).state[2]}
+TB  600.0 "r_ST3" {(*-r,r+*,*-r+*).state[3]}
+TB  600.0 "r_ST4" {(*-r,r+*,*-r+*).state[4]}
+TB  600.0 "p_ST2" {(*-p,p+*,*-p+*).state[2]}
+TB  600.0 "p_ST3" {(*-p,p+*,*-p+*).state[3]}
+TB  600.0 "p_ST4" {(*-p,p+*,*-p+*).state[4]}
+TB  600.0 "o_ST2" {(*-o,o+*,*-o+*).state[2]}
+TB  600.0 "o_ST3" {(*-o,o+*,*-o+*).state[3]}
+TB  600.0 "o_ST4" {(*-o,o+*,*-o+*).state[4]}
+TB  600.0 "n_ST2" {(*-n,n+*,*-n+*).state[2]}
+TB  600.0 "n_ST3" {(*-n,n+*,*-n+*).state[3]}
+TB  600.0 "n_ST4" {(*-n,n+*,*-n+*).state[4]}
+TB  600.0 "m_ST2" {(*-m,m+*,*-m+*).state[2]}
+TB  600.0 "m_ST3" {(*-m,m+*,*-m+*).state[3]}
+TB  600.0 "m_ST4" {(*-m,m+*,*-m+*).state[4]}
+TB  600.0 "l_ST2" {(*-l,l+*,*-l+*).state[2]}
+TB  600.0 "l_ST3" {(*-l,l+*,*-l+*).state[3]}
+TB  600.0 "l_ST4" {(*-l,l+*,*-l+*).state[4]}
+TB  600.0 "k_ST2" {(*-k,k+*,*-k+*).state[2]}
+TB  600.0 "k_ST3" {(*-k,k+*,*-k+*).state[3]}
+TB  600.0 "k_ST4" {(*-k,k+*,*-k+*).state[4]}
+TB  600.0 "i_ST2" {(*-i,i+*,*-i+*).state[2]}
+TB  600.0 "i_ST3" {(*-i,i+*,*-i+*).state[3]}
+TB  600.0 "i_ST4" {(*-i,i+*,*-i+*).state[4]}
+TB  600.0 "h_ST2" {(*-h,h+*,*-h+*).state[2]}
+TB  600.0 "h_ST3" {(*-h,h+*,*-h+*).state[3]}
+TB  600.0 "h_ST4" {(*-h,h+*,*-h+*).state[4]}
+TB  600.0 "g_ST2" {(*-g,g+*,*-g+*).state[2]}
+TB  600.0 "g_ST3" {(*-g,g+*,*-g+*).state[3]}
+TB  600.0 "g_ST4" {(*-g,g+*,*-g+*).state[4]}
+TB  600.0 "f_ST2" {(*-f,f+*,*-f+*).state[2]}
+TB  600.0 "f_ST3" {(*-f,f+*,*-f+*).state[3]}
+TB  600.0 "f_ST4" {(*-f,f+*,*-f+*).state[4]}
+TB  600.0 "e_ST2" {(*-e,e+*,*-e+*).state[2]}
+TB  600.0 "e_ST3" {(*-e,e+*,*-e+*).state[3]}
+TB  600.0 "e_ST4" {(*-e,e+*,*-e+*).state[4]}
+TB  600.0 "d_ST2" {(*-d,d+*,*-d+*).state[2]}
+TB  600.0 "d_ST3" {(*-d,d+*,*-d+*).state[3]}
+TB  600.0 "d_ST4" {(*-d,d+*,*-d+*).state[4]}
+TB  600.0 "b_ST2" {(*-b,b+*,*-b+*).state[2]}
+TB  600.0 "b_ST3" {(*-b,b+*,*-b+*).state[3]}
+TB  600.0 "b_ST4" {(*-b,b+*,*-b+*).state[4]}
+TB  600.0 "a_ST2" {(*-a,a+*,*-a+*).state[2]}
+TB  600.0 "a_ST3" {(*-a,a+*,*-a+*).state[3]}
+TB  600.0 "a_ST4" {(*-a,a+*,*-a+*).state[4]}
+
+TR 1
+
+CO "tiedlist"
