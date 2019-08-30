@@ -1,22 +1,16 @@
 # HTK - tutorial para treino de modelo acústico
 
+For this tutorial we are following the chapter 3 of the HTKBook for HTK version
+3.4
+
 ```mermaid
 graph LR;
-  A[data<br>preparation]-->B[creating<br>monophone HMMs];
-  B[creating<br>monophone HMMs]-->C[creating<br>tied-state<br>triphone HMMs];
-  C[creating<br>tied-state<br>triphone HMMs]-->D[recogniser<br>evaluation];
+  A[<center>data<br>preparation</center>]-->B;
+  B[<center>creating<br>monophone HMMs</center>]-->C;
+  C[<center>creating<br>tied-state<br>triphone HMMs</center>]-->D[recogniser<br>evaluation];
 ```
 
 ### 3.0 FalaBrasil Environment Tree
-
-```mermaid
-graph TD
-  ts(Training Set) --> la(Learning Algorithm)
-  subgraph hypothesis LR
-  sh(Size Of House) --> h(Hypothesis) --> ep(Estimated Price)
-  end
-  la --> h
-```
 
 ```
 HLEd                                                HTK Label Editor   
@@ -88,3 +82,10 @@ HHEd -B -H model/mono\_sp/macros -H model/mono\_sp/hmmdefs -M model/cd\_untied\_
 
                            in                       in                   in                                          in                                 in                
 HERest -B -I -t $PRUNING etc/wintri.mlf -S etc/train\_mfc.scp -H model/cd\_untied\_$((i-1))/macros -H model/cd\_untied\_$((i-1))/hmmdefs -M model/cd\_untied\_${i} etc/trifone
+
+
+[![FalaBrasil](doc/logo_fb_github_footer.png)](https://ufpafalabrasil.gitlab.io/ "Visite o site do Grupo FalaBrasil") [![UFPA](doc/logo_ufpa_github_footer.png)](https://portal.ufpa.br/ "Visite o site da UFPA")
+
+__Grupo FalaBrasil (2019)__ - https://ufpafalabrasil.gitlab.io/      
+__Universidade Federal do Pará (UFPA)__ - https://portal.ufpa.br/     
+Cassio Batista - https://cassota.gitlab.io
