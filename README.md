@@ -1,21 +1,23 @@
 # HTK - tutorial para treino de modelo acústico
 
-![](https://gitlab.com/speechufpa/model-scripts/raw/master/cassio-htk/doc/overview.jpg) 
+```mermaid
+graph LR;
+  A[data<br>preparation]-->B[creating<br>monophone HMMs];
+  B[creating<br>monophone HMMs]-->C[creating<br>tied-state<br>triphone HMMs];
+  C[creating<br>tied-state<br>triphone HMMs]-->D[recogniser<br>evaluation];
+```
 
 ### 3.0 FalaBrasil Environment Tree
-```
-       ..
-      /  \
-    ( . .  )
-  ( .   . . .)          
-(.  \ \. / / . )        
-  ( .\.\/ / .)               
-   -- |  | --
-      |  |
-      |  |
+
+```mermaid
+graph TD
+  ts(Training Set) --> la(Learning Algorithm)
+  subgraph hypothesis LR
+  sh(Size Of House) --> h(Hypothesis) --> ep(Estimated Price)
+  end
+  la --> h
 ```
 
-### 3.1 Data Preparation (fb\_01\_dataprep.sh)
 ```
 HLEd                                                HTK Label Editor   
   -l '*'                                            dir to store label file (MLF header)   
