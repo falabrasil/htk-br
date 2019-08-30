@@ -5,9 +5,9 @@ For this tutorial we are following the chapter 3 of the HTKBook for HTK version
 
 ```mermaid
 graph LR;
-  A[<center>data<br>preparation</center>]-->B[<center>creating<br>monophone HMMs</center>];
-  B[<center>creating<br>monophone HMMs</center>]-->C[<center>creating<br>tied-state<br>triphone HMMs</center>];
-  C[<center>creating<br>tied-state<br>triphone HMMs</center>]-->D[<center>recogniser<br>evaluation</center>];
+  A[data<br>preparation]-->B[creating<br>monophone HMMs];
+  B[creating<br>monophone HMMs]-->C[creating<br>tied-state<br>triphone HMMs];
+  C[creating<br>tied-state<br>triphone HMMs]-->D[recogniser<br>evaluation];
 ```
 
 ### 3.0 FalaBrasil Environment Tree
