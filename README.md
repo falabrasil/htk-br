@@ -1,7 +1,8 @@
 # HTK - tutorial para treino de modelo acústico
 
 For this tutorial we are following the chapter 3 of the HTKBook for HTK version
-3.4
+3.4. Installation on Arch linux required `lib32-glibc` and `lib32-gcc-libs` 
+packages as dependencies.
 
 ```mermaid
 graph LR;
