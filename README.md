@@ -5,8 +5,11 @@ You better go for more up-to-date material such as
 [our scripts for Kaldi](https://gitlab.com/fb-asr/fb-am-tutorial/kaldi-am-train).
 
 ## Acoustic model training
-See [`train/`](./train) dir. Some older material is also available under the
-[`old/`](./old) folder.
+See [`am-train/`](./am-train) dir. Some older material is also available under
+the [`am-train/old/`](./am-train/old) folder.
+
+## Language model training
+See [`lm-train/`](./lm-train) dir.
 
 ## Online decoding
 See [`online/`](./online) dir.
